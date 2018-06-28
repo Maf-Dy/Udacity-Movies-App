@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Movies App</string>
+
+    <string name="api_key"></string>
+    <string name="title_activity_scrolling">Movie </string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+</resources>

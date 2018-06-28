@@ -1,0 +1,45 @@
+package com.mafdy.udacity.movies.Object;
+
+/**
+ * Created by SBP on 02/04/2018.
+ */
+
+public class MyApiResponse {
+
+    private int page;
+    private int total_results;
+    private int total_pages;
+    private MyMovie[] results;
+
+    public int getPage() {
+        return page;
+    }
+
+    public void setPage(int page) {
+        this.page = page;
+    }
+
+    public int getTotal_results() {
+        return total_results;
+    }
+
+    public void setTotal_results(int total_results) {
+        this.total_results = total_results;
+    }
+
+    public int getTotal_pages() {
+        return total_pages;
+    }
+
+    public void setTotal_pages(int total_pages) {
+        this.total_pages = total_pages;
+    }
+
+    public MyMovie[] getResults() {
+        return results;
+    }
+
+    public void setResults(MyMovie[] results) {
+        this.results = results;
+    }
+}
